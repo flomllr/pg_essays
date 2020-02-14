@@ -47,10 +47,10 @@ const wrapHtml = (title, essay, link) => {
 	let body = essays.reduce((acc, e) => acc+e, ""); 
 
 	const globalHtml = `
-		<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
 		<style>
 			* {
-				font-family: 'Source Serif Pro', serif;
+				font-family: 'Times New Roman', serif;
+				font-weight: normal;
 			}
 			h1 {
 				font-size: 24pt;
