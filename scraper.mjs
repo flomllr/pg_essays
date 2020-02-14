@@ -47,6 +47,21 @@ const wrapHtml = (title, essay, link) => {
 	let body = essays.reduce((acc, e) => acc+e, ""); 
 
 	const globalHtml = `
+		<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+		<style>
+			* {
+				font-family: 'Source Serif Pro', serif;
+			}
+			h1 {
+				font-size: 24pt;
+			}
+			h2 {
+				font-size: 18pt;
+			}
+			p {
+				font-size: 14pt;
+			}
+		</style>
 		<div style="text-align: center">
 			<h2>Paul Graham</h2>
 			<h1>Essays</h1>
