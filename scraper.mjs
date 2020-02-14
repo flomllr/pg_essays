@@ -51,15 +51,13 @@ const wrapHtml = (title, essay, link) => {
 			* {
 				font-family: 'Times New Roman', serif;
 				font-weight: normal;
+				font-size: 12pt;
 			}
 			h1 {
 				font-size: 24pt;
 			}
 			h2 {
 				font-size: 18pt;
-			}
-			p {
-				font-size: 14pt;
 			}
 		</style>
 		<div style="text-align: center">
