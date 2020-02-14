@@ -55,10 +55,10 @@ const wrapHtml = (title, essay, link) => {
 		<div style='page-break-before:always'>&nbsp;</div>
 		${body}
 	`;
-	fs.writeFileSync("essay.html", globalHtml)
+	fs.writeFileSync("documents/essay.html", globalHtml)
 	const options = {
 		format: "A4",
 		border: "1in"
 	}
-	pdf.create(globalHtml, options).toFile("./essay.pdf", () => {});
+	pdf.create(globalHtml, options).toFile("documents/essay.pdf", () => {});
 })()
